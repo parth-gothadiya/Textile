@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.Container {}
+
+*,
+body {
+    margin: 0px;
+    box-sizing: border-box;
+}
+.hight
+{
+    padding: 0px 0px !important;
+}
+.logo1 {
+    /* width: 80px; */
+    height: 80px;
+    display: flex;
+    align-items: center!important;
+}
+
+.logoset
+{
+    margin-left: 30px;
+}
+
+
+.sub-menu {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.sub-menu li {
+    color: black !important;
+
+padding: 18px 40px;
+margin: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center !important;
+}
+
+.sub-menu li a {
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(255, 255, 255) !important;
+    font-family: Josefin Sans;
+    letter-spacing: 1px;
+transition: 0.2s;
+}
+.sub-menu li:hover > a
+{
+    color: #008cff !important;
+    transform: scale(1.1);
+    
+}
